@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/recruit?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: 961228
+    driver-class-name: com.mysql.jdbc.Driver
+  redis:
+    host: localhost
+    port: 6379
+  application:
+    name: company
+env: dev
