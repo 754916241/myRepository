@@ -10,3 +10,5 @@ spring:
   application:
     name: company
 env: dev
+server:
+  port: 8081
